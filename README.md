@@ -1,19 +1,36 @@
-# :earth_americas: GDP dashboard template
+# 📊 GDP Dashboard
 
-A simple Streamlit app showing the GDP of different countries in the world.
+**GDP Dashboard** is a data-driven application designed to visualize and analyze global GDP trends. Built with **Python** and **Streamlit**, it offers an interactive experience for exploring economic indicators and comparing growth across different regions.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://gdp-dashboard-template.streamlit.app/)
+## 🚀 Features
 
-### How to run it on your own machine
+- **Interactive Visualizations**: Dynamic charts and maps showing GDP distribution.
+- **Time-Series Analysis**: Track economic growth over several decades.
+- **Country Comparisons**: Compare GDP metrics between multiple nations.
+- **Data Insights**: Automated summaries of key economic findings.
 
-1. Install the requirements
+## 🛠️ Technology Stack
 
+- **Framework**: Streamlit
+- **Language**: Python
+- **Data Libraries**: Pandas, Plotly, NumPy
+- **Visualization**: Plotly Express for high-quality interactive charts.
+
+## 📂 File Overview
+
+- `app.py`: The main application script.
+- `data.csv`: The primary dataset containing global GDP records.
+
+## 🚀 How to Run
+
+1. Install dependencies:
+   ```bash
+   pip install streamlit pandas plotly
    ```
-   $ pip install -r requirements.txt
+2. Launch the dashboard:
+   ```bash
+   streamlit run app.py
    ```
 
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+---
+*Visualizing the pulse of the global economy.*
